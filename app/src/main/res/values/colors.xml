@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryXDColor">#b9f6ca</color>
+    <color name="primaryLightColor">#ecfffd</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="primaryDarkColor">#88c399</color>
+    <color name="degradado">#B1F2C4</color>
+    <color name="plomo">#707070</color>
+    <color name="primaryTextColor">#33543D</color>
+</resources>

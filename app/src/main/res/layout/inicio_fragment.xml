@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Inicio.Inicio">
+
+    <LinearLayout
+        android:id="@+id/Iadoptame"
+        android:layout_width="156dp"
+        android:layout_height="211dp"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="90dp"
+        android:background="@color/primaryXDColor"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="ADÓPTAME"
+
+                android:textColor="@color/plomo"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <ImageView
+
+            android:id="@+id/imgadoptame"
+            android:layout_width="152dp"
+            android:layout_height="172dp"
+            android:layout_gravity="center"
+            android:src="@drawable/adopta"
+
+
+            ></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Iencuentrame"
+        android:layout_width="156dp"
+        android:layout_height="211dp"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="90dp"
+        android:background="@color/primaryDarkColor"
+        android:orientation="vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="PERDIDOS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/blanco"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <ImageView
+
+            android:id="@+id/imgEncuentrame"
+            android:layout_width="152dp"
+            android:layout_height="172dp"
+            android:layout_gravity="center"
+            android:src="@drawable/encuentrame"
+
+
+            >
+
+        </ImageView>
+    </LinearLayout>
+</FrameLayout>

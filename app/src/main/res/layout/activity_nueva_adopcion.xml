@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Adóptame.NuevaAdopcion">
+
+    <TextView
+        android:id="@+id/textViewAdoptame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="1dp"
+        android:text="Ingrese datos de la mascota"
+        android:textColor="@color/plomo"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtIPnombreMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="30"
+        android:paddingLeft="7dp"
+        android:inputType="textPersonName"
+        android:hint="Nombre:"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edtIPespecie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="30"
+        android:paddingLeft="7dp"
+        android:inputType="textPersonName"
+        android:hint="Especie(Perro,Gato):"
+        android:textSize="18sp"
+        />
+
+
+    <EditText
+        android:id="@+id/edtIPgénero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:paddingLeft="7dp"
+        android:inputType="textPersonName"
+        android:hint="Género(Hembra,Macho):"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edtIPColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:paddingLeft="7dp"
+        android:inputType="textPersonName"
+        android:hint="Color (Blanco, Amarillo, Negro, Marrón, Plomo, Beige, Mixto):"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/edtIPtamaño"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:paddingLeft="7dp"
+        android:inputType="textPersonName"
+        android:hint="Tamaño(Grande, Mediano, Pequeño):"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edtIPedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:paddingLeft="7dp"
+        android:inputType="text|number"
+        android:hint="Edad(número de años):"
+        android:textSize="18sp"/>
+
+
+
+    <EditText
+        android:id="@+id/edtIPdistrito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:paddingLeft="7dp"
+        android:inputType="textPersonName"
+        android:hint="Distrito:"
+        android:textSize="18sp"/>
+
+
+    <EditText
+        android:id="@+id/edtIPcontacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:paddingLeft="7dp"
+        android:inputType="textPersonName"
+        android:hint="Contacto:"
+        android:textSize="18sp"/>
+
+
+    <EditText
+        android:id="@+id/edtIPcelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:paddingLeft="7dp"
+        android:hint="Celular:"
+        android:inputType="text|number"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewAgregarFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:paddingTop="3dp"
+        android:text="Agregar Foto:"
+        android:paddingLeft="7dp"
+        android:textColor="@color/plomo"
+        android:textSize="18sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_camera"
+            app:tint="@color/primaryDarkColor">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_gallery"
+            app:tint="@color/primaryDarkColor">
+
+        </ImageView>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/primaryDarkColor"
+        android:text="Guardar"
+        android:textColor="@color/blanco"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    ></LinearLayout>

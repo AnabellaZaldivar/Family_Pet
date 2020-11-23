@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="pe.azm.family_pet.ui.Inicio.Inicio"
+        android:label="@string/menu_Inicio"
+        tools:layout="@layout/inicio_fragment" />
+
+    <fragment
+        android:id="@+id/nav_MiCuenta"
+        android:name="pe.azm.family_pet.ui.MiCuenta.MiCuenta"
+        android:label="@string/menu_MiCuenta"
+        tools:layout="@layout/mi_cuenta_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Adoptame"
+        android:name="pe.azm.family_pet.ui.Adóptame.Adoptame"
+        android:label="@string/menu_Adoptame"
+        tools:layout="@layout/adoptame_fragment" />
+
+    <fragment
+        android:id="@+id/nav_MascotasPerdidas"
+        android:name="pe.azm.family_pet.ui.MascotasPerdidas.MascotasPerdidas"
+        android:label="@string/menu_MascotasPerdidas"
+        tools:layout="@layout/mascotas_perdidas_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Reportar"
+        android:name="pe.azm.family_pet.ui.Reportar.Reportar"
+        android:label="@string/menu_Reportar"
+        tools:layout="@layout/reportar_fragment" />
+
+</navigation>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adaptadores.PerdidosAdapter">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="266dp"
+        android:layout_height="192dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Nombre "
+                android:textStyle="bold"></TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Especie:"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/twRNombre"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Perro">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Género: "
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/twRDescripcion"
+                android:layout_width="173dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Macho"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edad: "
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/twRTipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="2"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tamaño: "
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/twRTamaño"
+                android:layout_width="168dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Mediano"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distrito: "
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/twRDistrito"
+                android:layout_width="172dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Chilca"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contacto: "
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/twRContacto"
+                android:layout_width="161dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Mariana"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WhatsApp: "
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/twRPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="999666999"></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/Rimage"
+        android:layout_width="134dp"
+        android:layout_height="189dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="11dp"
+        android:paddingRight="20dp">
+
+    </ImageView>
+
+
+</RelativeLayout>

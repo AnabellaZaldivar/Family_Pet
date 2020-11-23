@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_Inicio" />
+        <item
+            android:id="@+id/nav_MiCuenta"
+            android:icon="@drawable/ic_micuenta"
+            android:title="@string/menu_MiCuenta" />
+        <item
+            android:id="@+id/nav_Adoptame"
+            android:icon="@drawable/ic_pets"
+            android:title="@string/menu_Adoptame" />
+        <item
+            android:id="@+id/nav_MascotasPerdidas"
+            android:icon="@drawable/ic_search"
+            android:title="@string/menu_MascotasPerdidas" />
+        <item
+            android:id="@+id/nav_Reportar"
+            android:icon="@drawable/ic_reportar"
+            android:title="@string/menu_Reportar" />
+    </group>
+</menu>
